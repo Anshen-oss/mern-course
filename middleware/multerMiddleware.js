@@ -1,8 +1,6 @@
 import multer from 'multer';
 import DataParser from 'datauri/parser.js';
 import path from 'path';
-import { parseArgs } from 'util';
-import { log } from 'console';
 
 const storage = multer.memoryStorage()
 
